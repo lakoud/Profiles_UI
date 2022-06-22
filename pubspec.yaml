@@ -1,0 +1,55 @@
+name: profilui
+description: A new Flutter project.
+
+
+publish_to: 'none'
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.3 <3.0.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+
+
+
+flutter:
+
+
+  uses-material-design: true
+  assets:
+    - assets/profiles/
+    - assets/sheard/
+  #   - images/a_dot_ham.jpeg
+
+
+  fonts:
+     - family: IconBroken
+       fonts:
+         - asset: assets/icons/icons.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+     - family: SFUI
+       fonts:
+         - asset: assets/fonts/sf-ui-display-semibold-58646eddcae92.otf
+         - asset: assets/fonts/sf-ui-display-black.otf
+         - asset: assets/fonts/sf-ui-display-heavy.otf
+         - asset: assets/fonts/sf-ui-display-light.otf
+         - asset: assets/fonts/sf-ui-display-medium.otf
+        
+
+  
+ 
